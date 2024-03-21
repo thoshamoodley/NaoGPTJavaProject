@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf6975f-f2b6-4724-af98-5842972ffe92" name="Changes" comment="Added lines to read from python service and record audio">
+      <change afterPath="$PROJECT_DIR$/NAO1711025712600.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/java_naoqi_sdk_2_1_4_13_mac64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/java_naoqi_sdk_2_1_4_13_mac64.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NaoConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NaoConnect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,38 +25,41 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2biFAW1aPXBmrqCYgrq0iZWx4EN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.NaoConnect.executor": "Run",
+    "Application.NaoConnectConf.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="NaoConnectConf" type="Application" factoryName="Application">
+      <envs>
+        <env name="NAOUSER" value="nao" />
+        <env name="NAOPASSWORD" value="nao" />
+        <env name="HOST" value="10.1.0.215" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="NaoConnect" />
       <module name="NaoConnect" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="NaoConnect" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +104,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added lines to read from python service and record audio" />
     <option name="LAST_COMMIT_MESSAGE" value="Added lines to read from python service and record audio" />
   </component>

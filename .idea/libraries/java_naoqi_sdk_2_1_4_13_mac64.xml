@@ -2,6 +2,7 @@
   <library name="java-naoqi-sdk-2.1.4.13-mac64">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../NaoGPTJava/java-naoqi-sdk-2.1.4.13-mac64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jsch-0.1.55.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
